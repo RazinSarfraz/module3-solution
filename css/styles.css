@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box; 
+}
+
+body {
+	font-size: 18px;
+	color: #fff;
+	background-color: #1f6032;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #15AE9E;
+	border-radius: 0;
+	border: 0;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+}
+
+#logo_spell{
+	margin-top: 45px;
+	color: black;
+	text-shadow: 2px 2px 2px purple;
+  	font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#btn_modify{
+	margin-top: 45px;
+	background-color: grey;
+	border-color: black;
+	color: purple;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#collapse_content{
+	margin-top: 15px;
+	width:100%;
+	text-align: center;
+}
+
+#collapse_content a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#collapse_content a:hover {
+	background-color: lightblue;
+
+}
+hr{
+	background-color: green;
+}
+
+#page-title{
+width: 100%;
+text-align: center;
+margin-top: 10px;
+font-size: 25px;
+color: yellow;
+font-weight: bold;
+letter-spacing: 2px;
+text-shadow: 2px 2px 2px black;
+}
+
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: auto;
+  width: 100%;
+  border: 2px solid #3F0C1F;
+  margin: 15px;
+  position: relative;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .7; 
+}
+
+.box-content{
+	text-align: justify;
+	padding:10px; 
+}
+
+
+
+
